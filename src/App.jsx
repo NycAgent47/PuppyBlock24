@@ -26,7 +26,10 @@ function App() {
           <h2>{featuredPup.name}</h2>
           <ul>
             <li>Age: {featuredPup.age}</li>
-            <li>Email: {featuredPup.email}</li>{" "}
+            <li>Email: {featuredPup.email}</li>
+            <li>Id: {featuredPup.id}</li>
+            <li>Owner Id: {featuredPup.ownerId}</li>
+            <li>Tricks: {featuredPup.tricks.length} </li>{" "}
           </ul>
         </div>
       )}
